@@ -4,4 +4,4 @@ Code reference for Chapter 6 *Conditionals and Iterative Statements in V* from t
 
 ## Author
 
-Navule Pavan Kumar Rao | [LinkedIn]('https://www.linkedin.com/in/navule/') | [GitHub]('https://www.github.com/windson')
+Navule Pavan Kumar Rao | [LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson)
