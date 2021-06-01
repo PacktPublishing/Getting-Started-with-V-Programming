@@ -1,3 +1,4 @@
-a := "con"
-b := "cat"
-println(a + b) // concat
+a := 'con'
+b := 'cat'
+println(a + b)
+// concat

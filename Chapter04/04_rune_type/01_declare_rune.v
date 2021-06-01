@@ -1,2 +1,3 @@
 l := `a`
-println(typeof(l).name) // rune
+println(typeof(l).name)
+// rune
