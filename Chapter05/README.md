@@ -1,0 +1,7 @@
+# 6 Arrays and Maps in V
+
+Code reference for Chapter 5 *Arrays and Maps in V* from the book *Learn V Programming*, published by Packt
+
+## Author
+
+Navule Pavan Kumar Rao | [LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson)
