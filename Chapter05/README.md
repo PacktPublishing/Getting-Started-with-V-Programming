@@ -1,4 +1,4 @@
-# 6 Arrays and Maps in V
+# 5 Arrays and Maps in V
 
 Code reference for Chapter 5 *Arrays and Maps in V* from the book *Learn V Programming*, published by Packt
 
