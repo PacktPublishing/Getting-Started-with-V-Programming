@@ -1,6 +1,6 @@
 # 8 Structs in V
 
-Code reference for Chapter 6 *Structs in V* from the book *Learn V Programming*, published by Packt
+Code reference for Chapter 8 *Structs in V* from the book *Learn V Programming*, published by Packt
 
 ## Author
 
