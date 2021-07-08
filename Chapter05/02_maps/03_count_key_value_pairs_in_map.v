@@ -4,5 +4,5 @@ mut student_1 := map{
 	'physics':     83
 	'chemistry':   89
 }
-mut cnt := student_1.len
+cnt := student_1.len
 println('There are $cnt key-value pairs in student_1 map')
