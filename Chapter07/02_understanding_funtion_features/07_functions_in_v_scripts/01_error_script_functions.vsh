@@ -1,4 +1,4 @@
-#!/usr/bin/env -S v run
+#!/usr/local/bin/v run
 
 cnt := 2
 

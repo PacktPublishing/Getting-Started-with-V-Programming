@@ -1,4 +1,4 @@
-#!/usr/bin/env -S v run
+#!/usr/local/bin/v run
 
 fn log(msg string) {
 	println(msg)

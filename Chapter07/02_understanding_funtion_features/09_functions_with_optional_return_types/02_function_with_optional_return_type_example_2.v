@@ -11,6 +11,6 @@ fn is_teen(age int) ?string {
 }
 
 fn main() {
-	x := is_teen(-3) or { err }
+	x := is_teen(-3) or { err.msg }
 	println(x)
 }
