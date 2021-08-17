@@ -11,17 +11,17 @@ fn main() {
 	mut n := Note{}
 
 	// populate
-	n = {
+	n = Note{
 		id: 1
-		message: 'short struct literal demo'
+		message: 'updating struct fields demo'
 	}
 	println(n)
 
 	// unspecified fields zeroed by default
 	// id being type of int, will become 0 here
 	println('unspecified id zeroed during short struct type initialization')
-	n = {
-		message: 'short struct literal demo 2'
+	n = Note{
+		message: 'updating struct fields demo 2'
 	}
 	println(n)
 }

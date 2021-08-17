@@ -12,7 +12,7 @@ pub mut:
 	due     time.Time = time.now().add_days(1)
 }
 
-// is_empty_message is receiver method for Note
+// is_empty_message is a method that belongs to Note
 pub fn (n Note) is_empty_message() bool {
 	return n.message.len < 1
 }

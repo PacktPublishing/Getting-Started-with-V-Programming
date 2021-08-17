@@ -8,9 +8,9 @@ pub mut:
 	due time.Time = time.now().add_days(1)
 }
 
-// Note is a struct with embedding struct NoteTimeInfo along with other fields
+// Note is a struct with struct NoteTimeInfo as a field, along with other fields
 pub struct Note {
-	NoteTimeInfo // Embedded Struct
+	NoteTimeInfo // Struct as another struct field
 pub:
 	id int
 pub mut:
@@ -20,7 +20,7 @@ pub mut:
 
 n := Note{
 	id: 1
-	message: 'embedded structs demo'
+	message: 'adding struct as struct field demo'
 }
 println('Due date: $n.due')
 println(n)

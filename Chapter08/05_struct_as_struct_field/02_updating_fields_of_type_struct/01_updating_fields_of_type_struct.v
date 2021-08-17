@@ -10,7 +10,7 @@ pub mut:
 	due time.Time = time.now().add_days(1)
 }
 
-// Note is a struct with embedding struct NoteTimeInfo along with other fields
+// Note is a struct with struct NoteTimeInfo as a field, along with other fields
 pub struct Note {
 	NoteTimeInfo
 pub:
@@ -23,19 +23,16 @@ pub mut:
 fn main() {
 	mut n := Note{
 		id: 1
-		message: 'embedded struct demo'
+		message: 'adding struct as struct field demo'
 	}
 
 	println('Due date: $n.due')
-
-	// approach 1: implicit access of embedded struct fields
+	// approach 1: implicit access of struct fields of fields of type struct
 	n.due = n.due.add_days(2)
 	println('Due date after update: $n.due')
 
-	// approach 2: explicitly specifying the embedded struct and its fields
+	// approach 2: explicitly specifying the field of type struct and its fields
 	n.NoteTimeInfo.due = n.NoteTimeInfo.due.add_days(2)
-
 	println('Due date updated second time: $n.due')
-
 	println(n)
 }
