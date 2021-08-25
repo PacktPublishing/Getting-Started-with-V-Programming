@@ -1,6 +1,6 @@
-# Learn V Programming
+# Getting Started with V Programming
 
-Learn V Programming, published by Packt
+Getting Started with V Programming, published by Packt
 
 ## Author
 
