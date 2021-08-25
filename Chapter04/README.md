@@ -1,6 +1,6 @@
-# 4 Primitive data types in V
+# 4 Primitive data types
 
-Code reference for Chapter 4 *Primitive data types in V* from the book *Learn V Programming*, published by Packt
+Code reference for Chapter 4 *Primitive data types* from the book *Getting Started with V Programming*, published by Packt
 
 ## Author
 
