@@ -1,6 +1,6 @@
-# 3 Variables, Constants and Code Comments in V
+# 3 Variables, Constants and Code Comments
 
-Code reference for Chapter 3 *Variables, Constants and Code Comments in V* from the book *Learn V Programming*, published by Packt
+Code reference for Chapter 3 *Variables, Constants and Code Comments* from the book *Getting Started with V Programming*, published by Packt
 
 ## Author
 
