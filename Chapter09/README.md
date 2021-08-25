@@ -1,6 +1,6 @@
-# 9 Modules in V
+# 9 Modules
 
-Code reference for Chapter 9 *Modules in V* from the book *Learn V Programming*, published by Packt
+Code reference for Chapter 9 *Modules* from the book *Getting Started with V Programming*, published by Packt
 
 ## Author
 
