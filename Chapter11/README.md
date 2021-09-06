@@ -1,4 +1,4 @@
-# 10 Concurrency
+# 11 Channels
 
 Code reference for Chapter 11 *Channels* from the book *Getting Started with V Programming*, published by Packt
 
