@@ -1,11 +1,11 @@
 module main
 
 const (
-	cnt = 4
+	count = 4
 )
 
 fn sender(ch chan int) {
-	for i in 0 .. cnt {
+	for i in 0 .. count {
 		ch <- i // since the push operation is a void expression, this cannot be placed in a println
 		println('Sent $i into the channel')
 	}
