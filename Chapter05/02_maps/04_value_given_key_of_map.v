@@ -1,4 +1,4 @@
-mut student_1 := map{
+mut student_1 := {
 	'english':     90
 	'mathematics': 96
 	'physics':     83
