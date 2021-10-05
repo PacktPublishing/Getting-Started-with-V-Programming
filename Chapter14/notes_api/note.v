@@ -88,7 +88,6 @@ fn (mut app App) update(id int) vweb.Result {
 	}
 
 	// check if note to be updated exists
-
 	note_to_update := sql app.db {
 		select from Note where id == id
 	}

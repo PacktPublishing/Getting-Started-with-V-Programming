@@ -6,3 +6,4 @@ notes_api
 *.so
 *.dylib
 *.dll
+*.db
