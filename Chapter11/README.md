@@ -1,6 +1,6 @@
-# 11 Channels
+# 11 Channels: An advanced concurrency pattern in V
 
-Code reference for Chapter 11 *Channels* from the book *Getting Started with V Programming*, published by Packt
+Code reference for Chapter 11 *Channels: An advanced concurrency pattern* from the book *Getting Started with V Programming*, published by Packt
 
 ## Author
 
