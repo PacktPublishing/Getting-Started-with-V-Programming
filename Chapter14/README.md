@@ -1,6 +1,6 @@
-# 12 Testing
+# 14 Building a microservice
 
-Code reference for Chapter 14 *Building a microservice in V* from the book *Getting Started with V Programming*, published by Packt
+Code reference for Chapter 14 *Building a microservice* from the book *Getting Started with V Programming*, published by Packt
 
 ## Author
 
