@@ -1,0 +1,8 @@
+# Binaries for programs and plugins
+main
+notes_api
+*.exe
+*.exe~
+*.so
+*.dylib
+*.dll
