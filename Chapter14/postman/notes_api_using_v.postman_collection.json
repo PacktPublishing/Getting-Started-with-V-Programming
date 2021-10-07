@@ -82,7 +82,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"message\" : \"Check the stauts of the college application\",\r\n    \"status\" : false\r\n}",
+							"raw": "{\r\n    \"message\" : \"Check the status of the college application\",\r\n    \"status\" : false\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -244,7 +244,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"message\" : \"Check the stauts of the college application\",\r\n    \"status\" : true\r\n}",
+							"raw": "{\r\n    \"message\" : \"Check the status of the college application\",\r\n    \"status\" : true\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
