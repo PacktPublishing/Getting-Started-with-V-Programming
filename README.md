@@ -8,5 +8,5 @@ Navule Pavan Kumar Rao | [LinkedIn](https://www.linkedin.com/in/navule/) | [GitH
 
 ## Buy this book on Amazon
 
-<a href="https://amzn.to/3veotpF" rel="Getting Started with V Programming" target="_blank">![Getting Started with V Programming](https://images-na.ssl-images-amazon.com/images/I/51vQQ9W+uuL._SX258_BO1,204,203,200_.jpg)</a>
+[![Getting Started with V Programming](https://images-na.ssl-images-amazon.com/images/I/51vQQ9W+uuL._SX258_BO1,204,203,200_.jpg)](https://amzn.to/3veotpF)
 
