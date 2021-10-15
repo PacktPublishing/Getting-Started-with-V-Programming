@@ -14,7 +14,7 @@ fn (n Note) to_json() string {
 	return json.encode(n)
 }
 
-['/notes/'; post]
+['/notes'; post]
 fn (mut app App) create() vweb.Result {
 	// malformed json
 	n := json.decode(Note, app.req.data) or {
@@ -63,7 +63,7 @@ fn (mut app App) read(id int) vweb.Result {
 
 	// found note, return it
 	ret := json.encode(n)
-	app.set_status(200, 'Ok')
+	app.set_status(200, 'OK')
 	return app.json(ret)
 }
 
@@ -74,7 +74,7 @@ fn (mut app App) read_all() vweb.Result {
 	}
 
 	ret := json.encode(n)
-	app.set_status(200, 'Ok')
+	app.set_status(200, 'OK')
 	return app.json(ret)
 }
 
@@ -121,7 +121,7 @@ fn (mut app App) update(id int) vweb.Result {
 	updated_note := Note{id, n.message, n.status}
 
 	ret := json.encode(updated_note)
-	app.set_status(200, 'Ok')
+	app.set_status(200, 'OK')
 	return app.json(ret)
 }
 

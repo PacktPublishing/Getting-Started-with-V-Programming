@@ -5,7 +5,6 @@ import sqlite
 
 struct App {
 	vweb.Context
-	port int
 mut:
 	db sqlite.DB
 }
@@ -18,8 +17,7 @@ fn main() {
 	}
 	http_port := 8000
 	app := &App{
-		port: http_port
 		db: db
 	}
-	vweb.run(app, app.port)
+	vweb.run(app, http_port)
 }
