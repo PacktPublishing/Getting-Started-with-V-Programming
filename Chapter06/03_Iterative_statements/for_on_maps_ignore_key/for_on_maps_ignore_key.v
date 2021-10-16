@@ -1,7 +1,7 @@
 module main
 
 fn main() {
-	basket := map{
+	basket := {
 		'apples':  10
 		'bananas': 12
 	}
