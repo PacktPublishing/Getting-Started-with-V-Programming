@@ -36,7 +36,7 @@ The book begins by covering the fundamentals to help you learn about the basic f
 
 As you advance through the chapters, you'll learn how to implement concurrency in V Programming. Also you will learn about an advanced concurrency pattern, Channels, which enables you to share memory by establishing communication among coroutines.
 
-Finally, you'll learn how to write test cases for functions in V. This book also comes with an end-to-end project that guide you to build fast and maintainable RESTful microservice by leveraging the power of V and a bunch of builtin libraries in V.
+Finally, you'll learn how to write test cases for functions in V. This book also comes with an end-to-end project that will guide you to build fast and maintainable RESTful microservice by leveraging the power of V and a bunch of builtin libraries in V.
 
 By the end of the book, you'll be well-versed with the V programming language and be able to start writing your own programs and applications.
 
