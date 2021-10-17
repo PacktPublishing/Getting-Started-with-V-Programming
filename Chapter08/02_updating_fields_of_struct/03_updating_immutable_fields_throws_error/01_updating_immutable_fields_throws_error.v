@@ -7,6 +7,6 @@ mut:
 }
 
 fn main() {
-	mut n := Note{1, 'a simple struct demo'}
-	n.id = 2 // throws error
+	mut j := Note{1, 'a simple struct demo'}
+	j.id = 2 // throws error
 }

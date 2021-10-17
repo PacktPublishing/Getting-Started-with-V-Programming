@@ -18,9 +18,11 @@ pub mut:
 	status  bool
 }
 
-n := Note{
-	id: 1
-	message: 'adding struct as struct field demo'
+fn main() {
+	n := Note{
+		id: 1
+		message: 'adding struct as struct field demo'
+	}
+	println('Due date: $n.due')
+	println(n)
 }
-println('Due date: $n.due')
-println(n)
