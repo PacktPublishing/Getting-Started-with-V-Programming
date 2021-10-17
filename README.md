@@ -56,20 +56,20 @@ This book will help you:
 
 ## Table of Contents
 
-1 Introduction to V Programming
-2 Installing V Programming
-3 Variables, Constants and Code Comments
-4 Primitive data types
-5 Arrays and Maps
-6 Conditionals and Iterative Statements
-7 Functions
-8 Structs
-9 Modules
-10 Concurrency
-11 Channels: An advanced concurrency pattern
-12 Testing
-13 Introduction to JSON and ORM
-14 Building a Microservice
+- 1 Introduction to V Programming
+- 2 Installing V Programming
+- 3 Variables, Constants and Code Comments
+- 4 Primitive data types
+- 5 Arrays and Maps
+- 6 Conditionals and Iterative Statements
+- 7 Functions
+- 8 Structs
+- 9 Modules
+- 10 Concurrency
+- 11 Channels: An advanced concurrency pattern
+- 12 Testing
+- 13 Introduction to JSON and ORM
+- 14 Building a Microservice
 
 ## Buy this book on Packt
 
