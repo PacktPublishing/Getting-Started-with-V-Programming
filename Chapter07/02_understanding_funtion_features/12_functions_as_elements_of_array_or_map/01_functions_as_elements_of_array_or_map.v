@@ -22,7 +22,7 @@ fn main() {
 		println(res)
 	}
 	println('Functions as elements of Map')
-	d := map{
+	d := {
 		'sum':        adder
 		'difference': subtractor
 		'product':    multiplier
