@@ -8,7 +8,7 @@ Navule Pavan Kumar Rao | [LinkedIn](https://www.linkedin.com/in/navule/) | [GitH
 
 ## Introduction
 
-Learn a new statically compiled programming language to build maintainable and fast software with the help of this comprehensive guide to V programming. *V* programming comes with high performance and simplicity, which allows software programmers to do quick and rapid prototyping of applications that scale.
+Learn a new statically typed compiled programming language to build maintainable and fast software with the help of this comprehensive guide to V programming. *V* programming comes with high performance and simplicity, which allows software programmers to do quick and rapid prototyping of applications that scale.
 
 ## Who This Book Is For
 
