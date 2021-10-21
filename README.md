@@ -71,10 +71,10 @@ This book will help you:
 - 13 Introduction to JSON and ORM
 - 14 Building a Microservice
 
-## Buy this book on Packt
-
-[![Getting Started with V Programming](https://static.packt-cdn.com/products/9781839213434/cover/smaller)](https://packt.link/tYelu)
-
 ## Buy this book on Amazon
 
-[![Getting Started with V Programming](https://images-na.ssl-images-amazon.com/images/I/51vQQ9W+uuL._SX258_BO1,204,203,200_.jpg)](https://amzn.to/3veotpF)
+[![Getting Started with V Programming](https://github.com/PacktPublishing/Learn-V-Programming/blob/main/assets/Getting%20Started%20with%20V%20Programming%20Language%20-%20TutLinks.png)](https://amzn.to/3veotpF)
+
+## Buy this book on Packt
+
+[![Getting Started with V Programming](https://github.com/PacktPublishing/Learn-V-Programming/blob/main/assets/Getting%20Started%20with%20V%20Programming%20Language%20-%20TutLinks.png)](https://packt.link/tYelu)
