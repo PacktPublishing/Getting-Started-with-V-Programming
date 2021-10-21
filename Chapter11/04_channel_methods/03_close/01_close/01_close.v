@@ -9,9 +9,6 @@ fn main() {
 	println(<-ch) // pop using: <- First in is the first to out. So prints 123
 	ch.close() // Close channel
 
-	// Push after closed
-	ch <- 333 or { println('cannot push into a closed channel') }
-
 	// try_push will result .closed
 	new_val := 999
 	status := ch.try_push(new_val)

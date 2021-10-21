@@ -11,9 +11,6 @@ fn main() {
 	ch <- 222 // Push 2nd element into the channel
 	println(<-ch) // pop using: <- First in is the first to out. So prints 123
 
-	// Push after closed
-	ch <- 333 or { println('cannot push into a closed channel') }
-
 	// try_push will result .closed
 	new_val := 999
 	status := ch.try_push(new_val)
