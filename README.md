@@ -66,7 +66,7 @@ This book will help you:
 - 8 Structs
 - 9 Modules
 - 10 Concurrency
-- 11 Channels: An advanced concurrency pattern
+- 11 Channels - An advanced concurrency pattern
 - 12 Testing
 - 13 Introduction to JSON and ORM
 - 14 Building a Microservice
