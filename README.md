@@ -16,7 +16,7 @@ This book is for you if you are:
 
 - a beginner who is interested in learning a programming language that comes with a quick and short learning curve
 - an experienced programmer who is looking to switch to a new and better statically typed and compiled programming language
-- willing to write quick and rapid prototyping of applications that scale using a new language with powerful concurrency features
+- willing to write quick and rapid prototyping of applications at scale using a new language with powerful concurrency features
 
 ## Key Features
 
