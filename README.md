@@ -56,6 +56,5 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Python for Geeks  [[Packt]](https://www.packtpub.com/product/python-for-geeks/9781801070119?utm_source=github&utm_medium=repository&utm_campaign=9781801070119) [[Amazon]](https://www.amazon.com/dp/1801070113)
 
 ## Get to Know the Author
-[LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson)
-**Navule Pavan Kumar Rao** 
+**Navule Pavan Kumar Rao** ([LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson))
 is a full-stack software consultant with product development experience in the banking, finance, corporate tax, and automobile domains. He pursued an Executive M.Tech in Data Science from the Indian Institute of Technology (IIT), Hyderabad. He also pursued an Executive MBA in IT specialization from the Indian School of Business Management and Administration, and also holds a B.Tech in Electronics and Communication Engineering from Vaagdevi Institute of Technology and Science. He is a Microsoft Certified Professional (MCP) and Microsoft Certified Technology Specialist (MCTS). He has played key roles in identifying business requirements and converting them into viable products with the help of his vast software development skills at various companies. He also played a key role in the architecting, development, and deployment of software applications that become a part of the CI/CD pipeline to cloud platforms such as Azure, GCP, and also to on-premise infrastructures.
