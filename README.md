@@ -1,80 +1,61 @@
-# Getting Started with V Programming
+# Getting Started with V Programming 
 
-Getting Started with V Programming, published by Packt
+<a href="https://www.packtpub.com/product/getting-started-with-v-programming/9781839213434?utm_source=github&utm_medium=repository&utm_campaign=9781839213434"><img src="https://static.packt-cdn.com/products/9781839213434/cover/smaller" alt="Getting Started with V Programming " height="256px" align="right"></a>
 
-## Author
+This is the code repository for [Getting Started with V Programming ](https://www.packtpub.com/product/getting-started-with-v-programming/9781839213434?utm_source=github&utm_medium=repository&utm_campaign=9781839213434), published by Packt.
 
-Navule Pavan Kumar Rao | [LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson)
+**An end-to-end guide to adopting the V language from basic variables and modules to advanced concurrency**
 
-## Introduction
+## What is this book about?
+A new language on the block, V comes with a promising set of features such as fast compilation and interoperability with other programming languages. This is the first book on V programming language, packed with concise information and a walkthrough of all the features you need to know to get started with the language. 
 
-Learn a new statically typed compiled programming language to build maintainable and fast software with the help of this comprehensive guide to V programming. V programming comes with high performance and simplicity, which allows software programmers to do quick and rapid prototyping of applications at scale.
+This book covers the following exciting features:
+* Become familiar with the basic building blocks of programming in the V language
+* Install the V language on various operating systems
+* Understand how to work with arrays and maps in V programming
+* Discover how to implement concurrency in V programming
+* Understand best practices of sharing memory by letting coroutines communicate with each other using channels in V
+* Write modular code and build on your knowledge of structs and functions in V
+* Get acquainted with writing tests in V programming
+* Get to grips with building and querying RESTful microservice in V
 
-## Who This Book Is For
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1839213434) today!
 
-This book is for you if you are:
+<a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
+alt="https://www.packtpub.com/" border="5" /></a>
 
-- a beginner who is interested in learning a programming language that comes with a quick and short learning curve
-- an experienced programmer who is looking to switch to a new and better statically typed and compiled programming language
-- willing to write quick and rapid prototyping of applications at scale using a new language with powerful concurrency features
+## Instructions and Navigations
+All of the code is organized into folders. For example, Chapter02.
 
-## Key Features
+The code will look like the following:
+```
+const (
+app_name = 'V on Wheels'
+max_connections = 1000
+decimal_places = 2
+pi = 3.14
+)
+```
 
-Following are the key features of this book:
+**Following is what you need for this book:**
+Whether you're a beginner interested in learning a programming language or an experienced programmer looking to switch to a new and better statically compiled programming language, this V programming book is for you.
 
-- Explore the features of the V programming language step by step with this beginner's guide
-- Gain strong foundational knowledge of core programming concepts such as arrays, maps as well as structs, functions and modules
-- Gain concrete understanding and working knowledge of concurrency in V and channels: An advanced concurrency pattern
-- Learn how to write super-fast programs and applications that compile in a matter of seconds
-- Learn how to implement a RESTful microservice from the scratch
+With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
+### Software and Hardware List
+| Chapter | Software required | OS required |
+| -------- | ------------------------------------ | ----------------------------------- |
+| 1-14 | V (version 0.2.4) | Windows, Mac OS X, and Linux (Any) |
+| 1-14 | Notepad | Windows, Mac OS X, and Linux (Any) |
+| 1-14 | Postman | Windows, Mac OS X, and Linux (Any) |
 
-## Book Description
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781839213434_ColorImages.pdf).
 
-A new language on the block, V comes with a promising set of features such as fast compilation and interoperability with other programming languages. This is the first ever book on the V programming language, packed with concise information and a walk through of all the features you need to know to get started with the language.
+### Related products
+* Learn Bosque Programming  [[Packt]](https://www.packtpub.com/product/learn-bosque-programming/9781839211973?utm_source=github&utm_medium=repository&utm_campaign=9781839211973) [[Amazon]](https://www.amazon.com/dp/1839211970)
 
-The book begins by covering the fundamentals to help you learn about the basic features of V and the suite of builtin libraries available within the V ecosystem. You'll become familiar with primitive data types, declaring variables, arrays, and maps. In addition to basic programming, you'll develop solid understanding of the building blocks of programming, including functions, structs, and modules in the V programming language.
+* Python for Geeks  [[Packt]](https://www.packtpub.com/product/python-for-geeks/9781801070119?utm_source=github&utm_medium=repository&utm_campaign=9781801070119) [[Amazon]](https://www.amazon.com/dp/1801070113)
 
-As you advance through the chapters, you'll learn how to implement concurrency in V Programming. Also you will learn about an advanced concurrency pattern, Channels, which enables you to share memory by establishing communication among coroutines.
-
-Finally, you'll learn how to write test cases for functions in V. This book also comes with an end-to-end project that will guide you to build fast and maintainable RESTful microservice by leveraging the power of V and a bunch of builtin libraries in V.
-
-By the end of the book, you'll be well-versed with the V programming language and be able to start writing your own programs and applications.
-
-## What you will learn
-
-This book will help you:
-
-- Become familiar with the basic building blocks of programming in the V language
-- Install the V language on various operating systems
-- Get started with absolute basics such as variables, constants and primitive data types in V programming
-- Understand how to work with arrays and maps in V programming
-- Get well-versed with writing modular code along with knowledge of structs and functions in V programming
-- Discover how to implement concurrency in V programming
-- Know about the best practice of sharing memory by communicating among coroutines using channels in V programming
-- Get acquainted with writing tests in V programming
-- Get to grips with building and querying RESTful microservice in V programming
-
-## Table of Contents
-
-- 1 Introduction to V Programming
-- 2 Installing V Programming
-- 3 Variables, Constants and Code Comments
-- 4 Primitive data types
-- 5 Arrays and Maps
-- 6 Conditionals and Iterative Statements
-- 7 Functions
-- 8 Structs
-- 9 Modules
-- 10 Concurrency
-- 11 Channels - An advanced concurrency pattern
-- 12 Testing
-- 13 Introduction to JSON and ORM
-- 14 Building a Microservice
-
-## Buy this book on Amazon
-
-[![Getting Started with V Programming](https://github.com/PacktPublishing/Learn-V-Programming/blob/main/assets/Getting%20Started%20with%20V%20Programming%20Language%20-%20TutLinks.png)](https://amzn.to/3veotpF)
-
-## Buy this book on Packt
-
-[![Getting Started with V Programming](https://github.com/PacktPublishing/Learn-V-Programming/blob/main/assets/Getting%20Started%20with%20V%20Programming%20Language%20-%20TutLinks.png)](https://packt.link/tYelu)
+## Get to Know the Author
+[LinkedIn](https://www.linkedin.com/in/navule/) | [GitHub](https://www.github.com/windson)
+**Navule Pavan Kumar Rao** 
+is a full-stack software consultant with product development experience in the banking, finance, corporate tax, and automobile domains. He pursued an Executive M.Tech in Data Science from the Indian Institute of Technology (IIT), Hyderabad. He also pursued an Executive MBA in IT specialization from the Indian School of Business Management and Administration, and also holds a B.Tech in Electronics and Communication Engineering from Vaagdevi Institute of Technology and Science. He is a Microsoft Certified Professional (MCP) and Microsoft Certified Technology Specialist (MCTS). He has played key roles in identifying business requirements and converting them into viable products with the help of his vast software development skills at various companies. He also played a key role in the architecting, development, and deployment of software applications that become a part of the CI/CD pipeline to cloud platforms such as Azure, GCP, and also to on-premise infrastructures.
