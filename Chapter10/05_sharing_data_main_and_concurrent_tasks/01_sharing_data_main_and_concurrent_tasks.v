@@ -31,12 +31,13 @@ fn main() {
 	}
 
 	for {
-		if fund.total >= fund.target {
-			break
-		} else {
-			h := go donation()
-			go fund.collect(h.wait())
+		rlock fund {
+			if fund.total >= fund.target {
+				break
+			}
 		}
+		h := go donation()
+		go fund.collect(h.wait())
 	}
 
 	rlock fund { // acquire read lock
