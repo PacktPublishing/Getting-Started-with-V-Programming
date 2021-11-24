@@ -8,7 +8,7 @@ This is the code repository for [Getting Started with V Programming](https://www
 
 ## What is this book about?
 
-A new language on the block, V comes with a promising set of features such as fast compilation and interoperability with other programming languages. This is the first book on V programming language, packed with concise information and a walkthrough of all the features you need to know to get started with the language.
+A new language on the block, V comes with a promising set of features such as fast compilation and interoperability with other programming languages. This is the first book on V programming language, packed with concise information and a walk-through of all the features you need to know to get started with the language.
 
 This book covers the following exciting features:
 
