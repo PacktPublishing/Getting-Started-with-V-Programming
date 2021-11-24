@@ -1,14 +1,14 @@
 module main
 
-// Space3D A struct indicating the 3 dimensional co-ordinate system
+// Space3D A struct indicating the 3 dimensional coordinate system
 struct Space3D {
 mut:
 	x int
-	// x is an integer field that represents co-ordinate
+	// x is an integer field that represents coordinate
 	y int
-	// y is an integer field that represents co-ordinate
+	// y is an integer field that represents coordinate
 	z int
-	// z is an integer field that represents co-ordinate
+	// z is an integer field that represents coordinate
 }
 
 /*
@@ -16,7 +16,7 @@ get_point is a function that returns a struct of Type Space3D with points x,y,z 
 x is an input argument accepts values of type of int
 y is an input argument accepts values of type of int
 z is an input argument accepts values of type of int
-get_point function returns a Struct result of type Space3D with its co-ordinates set as value passed as input arguments x, y and z
+get_point function returns a Struct result of type Space3D with its coordinates set as value passed as input arguments x, y and z
 */
 fn get_point(x int, y int, z int) Space3D {
 	return Space3D{
