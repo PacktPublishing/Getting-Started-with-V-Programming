@@ -1,22 +1,22 @@
 module main
 
 fn main() {
-	a := i8(6)
-	b := i8(2)
+	a := 0b00000110 // 6
+	b := 0b00000010 // 2
 
-	// bitwise AND operation of two integers using & operator
+	// bitwise AND operation of two binary nums using & operator
 	b_and := a & b
 
-	// bitwise OR operation of two integers using | operator
+	// bitwise OR operation of two binary nums using | operator
 	b_or := a | b
 
-	// bitwise XOR operation of two integers using ^ operator
+	// bitwise XOR operation of two binary nums using ^ operator
 	b_xor := a ^ b
 
-	// bitwise NOT operation of an integer using ~ operator
-	not_a := ~a // Not operation yields value equals to -(a+1)
-	println('Bitwise AND: $a & $b = $b_and')
-	println('Bitwise OR: $a | $b = $b_or')
-	println('Bitwise XOR: $a ^ $b = $b_xor')
-	println('Bitwise NOT: ~$a = $not_a')
+	// bitwise NOT operation of an binary nums using ~ operator
+	not_a := ~a // Not operation yields value which is equal to -(a+1) in its integer form
+	println('Bitwise AND: ${a:08b} & ${b:08b} = ${b_and:08b}')
+	println('Bitwise OR: ${a:08b} | ${b:08b} = ${b_or:08b}')
+	println('Bitwise XOR: ${a:08b} ^ ${b:08b} = ${b_xor:08b}')
+	println('Bitwise NOT: ~${a:b} = ${not_a:b}')
 }
