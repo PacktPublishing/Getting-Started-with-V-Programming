@@ -45,7 +45,7 @@ fn (mut app App) create() vweb.Result {
 	note_created := Note{new_id, n.message, n.status}
 	app.set_status(201, 'created')
 	app.add_header('Content-Location', '/notes/$new_id')
-	return app.json(note_created.to_json())
+	return app.json(note_created/*.to_json()*/)
 }
 
 ['/notes/:id'; get]
@@ -62,9 +62,9 @@ fn (mut app App) read(id int) vweb.Result {
 	}
 
 	// found note, return it
-	ret := json.encode(n)
+	//ret := json.encode(n)
 	app.set_status(200, 'OK')
-	return app.json(ret)
+	return app.json(n)  // app.json(ret)
 }
 
 ['/notes/'; get]
@@ -73,9 +73,9 @@ fn (mut app App) read_all() vweb.Result {
 		select from Note
 	}
 
-	ret := json.encode(n)
+	//ret := json.encode(n)
 	app.set_status(200, 'OK')
-	return app.json(ret)
+	return app.json(n)  // app.json(ret)
 }
 
 ['/notes/:id'; put]
@@ -120,9 +120,9 @@ fn (mut app App) update(id int) vweb.Result {
 	// instead of making one more db call
 	updated_note := Note{id, n.message, n.status}
 
-	ret := json.encode(updated_note)
+	//ret := json.encode(updated_note)
 	app.set_status(200, 'OK')
-	return app.json(ret)
+	return app.json(updated_note)  // app.json(ret)
 }
 
 ['/notes/:id'; delete]
